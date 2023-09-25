@@ -1,0 +1,240 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(190, 200, 209);
+}
+
+.navul {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.navlist a:hover {
+    color: black;
+}
+
+.navlist a:active {
+    color: red;
+}
+
+.navul li:active {
+    scale: 0.9;
+}
+
+.navlist {
+    text-decoration: none;
+    padding: 10px;
+    margin: 20px 20px 20px 20px;
+    list-style: none;
+}
+/*---------------------------projects-----------------------------*/
+.project fieldset{
+    border:2px rgb(238, 145, 145) dashed;
+    margin: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    /* font-size: 1.3rem; */
+    
+}
+.project fieldset legend{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: rgb(0, 110, 255);
+}
+.project fieldset p{
+    padding: 30px;
+    color: darkgray;
+}
+.project fieldset:hover p{
+    font-size: 1.3rem;
+    padding: 19px;
+    color: rgb(0, 0, 0);
+    
+}
+/*-----------------------homepage-------------------------------*/
+.heading1 {
+    padding: 50px 0px 0px 0px;
+    font-size: 3rem;
+    color: #A084E8;
+    /* color: #D1F6C1; */
+}
+
+.g,
+.e,
+.t,
+.s,
+.a,
+.r,
+.d {
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+.g {
+    color: chocolate;
+}
+
+.e {
+    color: rgb(255, 0, 0);
+}
+
+.t {
+    color: blue;
+}
+
+.s {
+    color: aquamarine;
+}
+
+.a {
+    color: brown;
+}
+
+.d {
+    color: violet;
+}
+/*------------------------contact---------------------------*/
+
+.con-section1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.con-section1 a {
+    text-decoration: none;
+}
+
+.con-section1 a button {
+    border-radius: 20px;
+    width: 100%;
+    padding: 10px 50px 10px 50px;
+    height: 50px;
+    color: aliceblue;
+    font-size: 1.2rem;
+    border: none;
+    background-color: rgb(0, 113, 76);
+    box-shadow: 10px 5px 30px rgb(114, 112, 112);
+}
+
+.con-section1 a button:hover {
+    background-color: rgb(1, 73, 0);
+
+}
+
+.con-section1 a button:active {
+    scale: 0.9;
+
+}
+.con-form fieldset{
+    width: max-content;
+    border: 1px solid;
+}
+
+.con-form {
+    padding:100px 0px 10px 350px;
+}
+.con-form .inputarea{
+    margin: 20px;
+}
+.con-form .inputarea input {
+    width: 40%;
+    padding: 10px;
+    margin: 10px 10px 10px 10px;
+    border-radius: 10px;
+    border: none;
+    background-color:rgb(248, 242, 242);
+}
+.con-form textarea {
+    margin: 0px 50px 0px 30px;
+    border-radius: 10px;
+    background-color: rgb(248, 242, 242);
+    border: none;
+    resize: none;
+    padding: 10px;
+}
+.con-form button{
+    margin: 10px 0px 0px 30px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: blueviolet;
+    color: aliceblue;
+}
+.con-form button:active{
+    scale: 0.8;
+}
+/*--------------------------about---------------------------------*/
+.about-section1 {
+    padding: 0px 20px 10px 20px;
+}
+.about-section1 .name:hover {
+    color: brown;
+    scale: 1.2;
+}
+
+.about-section1 .intro {
+    display: flex;
+    font-size: 1.3rem;
+}
+
+.about-section1 .intro p:hover {
+    color: blue;
+}
+.about-section1 .intro ul li{
+    list-style: square;
+}
+
+.about-section1 p {
+    padding: 30px 30px 0px 30px;
+    text-align: justify;
+}
+.name{
+    color: rgb(33, 93, 142);
+}
+
+.about-section1 iframe {
+    height: 250px;
+    margin-right: 20px;
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: 1px 10px 10px rgb(123, 90, 90);
+    border-color: rgb(10, 104, 199);
+}
+.about-section1 iframe:hover {
+    scale: 1.4;
+    position: relative;
+    left: -100px;
+}
+/*----------------------------certificate-----------------------*/
+.certi iframe{
+    width: 90%;
+    padding: 0px 20px 0px 20px;
+    height: 450px;
+}
+/*------------------------------education--------------------------*/
+.edusection1 {
+    display: flex;
+    /* padding: 10px; */
+    /* width: fit-content; */
+    margin: 10px 80px 50px 80px;
+}
+
+.edu{
+    background-color: white;
+    padding: 20px;
+    height: 100px;
+    width: 50%;
+    border: solid rgb(240, 161, 161);
+    margin: 10px;
+    font-size: 1rem;
+}
+.edu:hover{
+    background-color: rgb(40, 32, 32);
+    color: aliceblue;
+}
